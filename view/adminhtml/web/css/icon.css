@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'webgate';
+    src: url('../fonts/icomoon.eot?uyrob8');
+    src: url('../fonts/icomoon.eot?uyrob8#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf') format('truetype'),
+    url('../fonts/icomoon.woff?uyrob8') format('woff'),
+    url('../fonts/icomoon.svg?uyrob8#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.admin__menu .level-0.item-webgatebase > a::before {
+    content: '\e900';
+    font-size: 3.0rem;
+    padding-top: 0.1rem;
+    margin-bottom: 10px;
+    font-family: 'webgate';
+}
+.webgate-base .title:before {
+    content: '\e900';
+    font-family: "webgate";
+    font-size:20px;
+    /*padding-top: .2rem;*/
+}

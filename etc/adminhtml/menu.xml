@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="WebGate_WebGateBase::webgatebase" title="WebGate" module="WebGate_WebGateBase" sortOrder="22"
+             resource="WebGate_WebGateBase::webgatebase"/>
+
+        <add id="WebGate_WebGateBase::modules" title="Service and Module" module="WebGate_WebGateBase" sortOrder="22"
+             resource="WebGate_WebGateBase::webgatebase"
+             parent="WebGate_WebGateBase::webgatebase"
+            action="admin/system_config/edit/section/webgate"
+        />
+
+
+    </menu>
+</config>

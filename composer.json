@@ -1,0 +1,22 @@
+{
+  "name": "webgate/module-webgatebase",
+  "description": "base module ",
+  "type": "magento2-module",
+  "license": "proprietary",
+  "authors": [
+    {
+      "email": "webgatesoft@gmail.com",
+      "name": "webGate Soft"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "WebGate\\WebGateBase\\": ""
+    }
+  }
+}

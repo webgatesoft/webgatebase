@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+
+    <head>
+        <css src="WebGate_WebGateBase::css/icon.css"/>
+
+    </head>
+    <!--<body>-->
+    <!--<referenceBlock name="footer">-->
+    <!--<block class="WebGate\WebGateBase\Block\Adminhtml\CopyLeft" name="webgate_copyleft"  template="WebGate_WebGateBase::copy-left.phtml"/>-->
+    <!--</referenceBlock>-->
+    <!--</body>-->
+</page>
